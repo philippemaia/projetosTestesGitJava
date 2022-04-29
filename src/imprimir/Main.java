@@ -1,9 +1,15 @@
 package imprimir;
 
+import negocio.Pessoa;
+
 public class Main {
 
 	public static void main(String[] args) {
-		System.out.println("Hello world");
+		Pessoa p = new Pessoa();
+		p.setCodigo(1);
+		p.setNome("Philippe");
+		
+		System.out.println(p.getNome());
 	}
 	
 }
