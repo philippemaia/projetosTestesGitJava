@@ -9,6 +9,7 @@ public class Main {
 		p.setCodigo(1);
 		p.setNome("Philippe Maia");
 		
+		System.out.println(p.getCodigo());
 		System.out.println(p.getNome());
 	}
 	
