@@ -7,7 +7,7 @@ public class Main {
 	public static void main(String[] args) {
 		Pessoa p = new Pessoa();
 		p.setCodigo(1);
-		p.setNome("Philippe");
+		p.setNome("Philippe Maia");
 		
 		System.out.println(p.getNome());
 	}
